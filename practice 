@@ -1,0 +1,24 @@
+greeting =
+"friendly_greeting"
+
+case greeting # step 1 create a value
+  when "unfriendly_greeting" # step 2 create the conditions
+    puts "What do you want!?"
+  when "friendly_greeting" # step 3 add the code
+    puts "Hi! How are you?"
+  end
+  
+  
+  #case statement
+  #we set the current_weather to "raining". Next, we use when statements to describe a list of possible matches. Since current_weather == "raining" we'd expect this code to put "grab an umbrella".
+  
+  current_weather = "raining"
+  
+  case current_weather
+    when "sunny"
+      puts "grab some sunscreen!"
+    when "raining"
+      puts "grab an umbrella"
+    when "snowing"
+      puts "bundle up"
+    end
